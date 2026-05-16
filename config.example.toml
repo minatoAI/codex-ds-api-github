@@ -1,0 +1,41 @@
+[deepseek]
+# api_key can also be provided as DEEPSEEK_API_KEY or the first start.sh argument.
+api_key = ""
+base_url = "https://api.deepseek.com"
+model = "deepseek-v4-pro"
+
+[model]
+mapping_strict = false
+
+[model.mapping]
+"gpt-5.5" = "deepseek-v4-pro"
+"gpt-5.4" = "deepseek-v4-pro"
+"gpt-5.4-mini" = "deepseek-v4-flash"
+"gpt-5.3-codex" = "deepseek-v4-pro"
+"gpt-5.3-codex-spark" = "deepseek-v4-flash"
+"gpt-5.2" = "deepseek-v4-pro"
+
+[state]
+backend = "memory"
+db_path = ".proxy-state/responses-state.sqlite3"
+ttl_seconds = 604800
+max_entries = 10000
+
+[web_search]
+backend = "mcp"
+mcp_command = "uvx"
+mcp_args = ["duckduckgo-mcp-server"]
+mcp_tool = "search"
+mcp_framing = "jsonl"
+max_results = 5
+timeout_seconds = 30
+
+[image]
+# preprocessor = "metadata"
+# preprocessor = "vision_endpoint"
+# preprocessor_endpoint = "http://127.0.0.1:9000/describe-image"
+# preprocessor = "openai_compatible"
+# preprocessor_endpoint = "http://127.0.0.1:11434/v1/chat/completions"
+# preprocessor_api_key = ""
+# preprocessor_model = "qwen2.5vl:7b"
+# preprocessor_prompt = "Extract OCR text, UI elements, layout summary, notable errors, and uncertainty."
