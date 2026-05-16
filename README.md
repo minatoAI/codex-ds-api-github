@@ -1,4 +1,4 @@
-# ds-responses-proxy
+# codex-ds-api
 
 Codex CLI DeepSeek adapter.
 
