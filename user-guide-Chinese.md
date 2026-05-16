@@ -1,5 +1,7 @@
 # 用户指南
 
+[English](user-guide.md)
+
 本文说明如何安装、配置和使用 `codex-ds-api`，让 Codex CLI 通过本地代理调用 DeepSeek。
 
 ## 1. 工作原理

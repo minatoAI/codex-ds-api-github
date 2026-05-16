@@ -1,5 +1,7 @@
 # Usage Guide
 
+[中文](user-guide-Chinese.md)
+
 ## 1. Start The Proxy
 
 Install dependencies:

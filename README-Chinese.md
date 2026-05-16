@@ -1,5 +1,7 @@
 # codex-ds-api
 
+[English](README.md)
+
 Codex CLI 的 DeepSeek Responses API 适配器。
 
 本项目启动一个本地 FastAPI 服务，接收 Codex CLI 按 OpenAI Responses API 形状发送的请求，将它们转换为 DeepSeek Chat Completions 请求，再把 DeepSeek 的响应转换回 Codex CLI 期望的 Responses/SSE 事件格式。

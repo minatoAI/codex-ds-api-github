@@ -1,5 +1,7 @@
 # codex-ds-api
 
+[中文](README-Chinese.md)
+
 Codex CLI DeepSeek adapter.
 
 This project runs a local FastAPI server that accepts Codex CLI Responses API requests and translates them to DeepSeek Chat Completions requests. It then translates DeepSeek responses back into the Responses/SSE shape that Codex CLI expects.
