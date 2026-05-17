@@ -232,4 +232,4 @@ logs/server.log
 
 ## 更多说明
 
-完整使用指南见 [user-guide.md](user-guide.md)。
+完整使用指南见 [user-guide-Chinese.md](user-guide-Chinese.md)。

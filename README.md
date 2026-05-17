@@ -119,4 +119,4 @@ OPENAI_API_KEY=not-used-by-proxy codex exec \
   "用一句话介绍你自己"
 ```
 
-See [USAGE.md](USAGE.md) for a short usage guide.
+See [user-guide.md](user-guide.md) for a short usage guide.
